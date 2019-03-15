@@ -38,7 +38,7 @@ a {
 }
 
 .form-control:focus {
-    border-color: #fff;
+    border-color: black;
     box-shadow: unset;
 }
 

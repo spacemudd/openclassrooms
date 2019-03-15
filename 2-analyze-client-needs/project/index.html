@@ -40,8 +40,8 @@
               Discover
             </a>
             <div class="dropdown-menu" aria-labelledby="discoverDropdownLink">
-              <a class="dropdown-item" href="#">Films</a>
-              <a class="dropdown-item" href="#">Articles</a>
+              <a class="dropdown-item" href="#films">Films</a>
+              <a class="dropdown-item" href="#discover">Articles</a>
               <a class="dropdown-item" href="#">City of Brooklyn’s news</a>
               <a class="dropdown-item" href="#">Brooklyn Bridge Park</a>
             </div>
@@ -76,9 +76,29 @@
             <li><img src="img/parking.svg" width="16"> $5.00</li>
             <li><img src="img/chairs.svg" width="16"> Low-rise chairs are welcome</li>
           </ul>
-          <button class="btn btn-primary-boff w-100" style="background-image: url('img/stars-1.jpg');">
-            Attend
-          </button>
+
+
+          <form action="/" method="get" class="mt-1">
+            <div class="form-group">
+              <input class="form-control form-control border-black"
+                     placeholder="What should we call you?"
+                     required
+                     autofocus
+                     >
+            </div>
+            <div class="form-group">
+              <input type="email"
+                     class="form-control form-control border-black"
+                     style="max-width:360px;"
+                     placeholder="What's your email address?"
+                     required>
+            </div>
+            <button class="btn btn-primary-boff w-100"
+            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+            style="background-image: url('img/stars-1.jpg');">
+              Attend
+            </button>
+          </form>
           <p class="text-center mg-t-xs text-secondary">
             <a href="#films"><i>View list of films (3) to be shown</i></a>
           </p>
@@ -89,7 +109,7 @@
     <!-- Whats on -->
     <div class="row">
       <div class="col text-center-xs">
-        <h3>What's on</h3>
+        <h3 id="films">What's on</h3>
         <p><a href="#view-all" class="link text-uppercase">View all &#x2192;</a></p>
       </div>
     </div>
@@ -147,7 +167,7 @@
     <!-- Discover -->
     <div class="row mg-t">
       <div class="col text-center-xs">
-        <h3>Discover</h3>
+        <h3 id="discover">Discover</h3>
         <p><a href="#view-all" class="link text-uppercase">View all &#x2192;</a></p>
       </div>
     </div>
