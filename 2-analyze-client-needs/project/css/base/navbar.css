@@ -1,0 +1,24 @@
+.bg-black {
+    background-color: black;
+}
+
+.location-button {
+    background-color: var(--yellow-color);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.location-button > .nav-link {
+    color: black !important;
+}
+
+@media (min-width: 1000px) {
+    .location-button {
+        margin-bottom: -8px;
+    }
+}
+
+/* Overrides */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
