@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.nav-item {
+	margin-top: 20px;
+}
+
 .location-button {
     background-color: var(--yellow-color);
     margin: 10px 0;
