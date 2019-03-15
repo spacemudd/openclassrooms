@@ -22,6 +22,20 @@ a {
     padding: 1rem;
 }
 
+.border-black {
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    border-color: #fff;
+    box-shadow: unset;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: black;
+    background-color: black;
+}
+
 @media (max-width: 920px) {
     .text-center-xs {
         text-align: center;
