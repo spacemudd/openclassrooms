@@ -1,0 +1,18 @@
+.box {
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem var(--yellow-color);
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box i, .box img {
+    width: 1rem;
+    margin: 0.8rem;
+}
+
+.box a {
+    /** Var from bootstrap **/
+    color: var(--secondary);
+}

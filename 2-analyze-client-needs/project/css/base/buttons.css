@@ -1,0 +1,10 @@
+.btn-primary-boff {
+    background-color: black;
+    color: white;
+    transition: 0.1s ease-in all;
+}
+
+.btn-primary-boff:hover, .btn-primary-boff:focus {
+    background: var(--yellow-color);
+    color: black;
+}
