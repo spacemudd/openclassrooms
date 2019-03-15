@@ -25,11 +25,15 @@
 }
 
 .film-box .date {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .film-box .img-container {
     max-width: 340px;
+}
+
+.image-container img {
+    min-height: 180px;
 }
 
 .film-box.highlight {
