@@ -5,6 +5,6 @@
 }
 
 .btn-primary-boff:hover, .btn-primary-boff:focus {
-    background: var(--yellow-color);
-    color: black;
+    /*background: var(--yellow-color);*/
+    color: var(--yellow-color);
 }
