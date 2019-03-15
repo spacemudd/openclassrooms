@@ -1,0 +1,37 @@
+.notification {
+    padding: 1rem;
+    background-color: var(--neon-color);
+    color: white;
+}
+
+.notification span {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--yellow-color);
+    font-weight: bold;
+}
+
+.notification a {
+    color: white;
+    border-bottom: var(--yellow-color) 2px solid;
+    text-decoration: none;
+    transition: 0.1s ease-in all;
+}
+
+.notification a:hover {
+    color:black;
+    background-color: var(--yellow-color);
+}
+
+@media (min-width: 1200px) {
+    .notification {
+        text-align: center;
+    }
+    
+    .notification span {
+        display: unset;
+        font-size: unset;
+    }
+}
