@@ -46,6 +46,10 @@
     max-width: 360px;
 }
 
+.film-box .description {
+    min-height: 8rem;
+}
+
 .fancy-box {
     width: 100%;
     height: 100%;
