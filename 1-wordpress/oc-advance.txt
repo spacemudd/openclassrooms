@@ -1,0 +1,8 @@
+- attempted to use estate plugin
+	- had difficulities because of incompatibilities w/ theme
+- after learning how to add a 'columns' block in wp, i was able to create a page with two columns for sales and rentals.
+	- can add css class to blocks
+
+OC Review|
+- Add 'contact us form' to contact us page
+- Some instructions for contacting about property 

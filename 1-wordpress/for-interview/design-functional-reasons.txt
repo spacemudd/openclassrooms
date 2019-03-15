@@ -1,0 +1,12 @@
+Design
+1. Thin typography that gives out the feeling of being lightweight and classy.
+2. The gold colour is indictive of luxoiry and one-of-a-kind experience.
+3. Fullscreen landing screen to give a sense of spaciousness.
+4. Contrasting colour to gain the visitors' attention.
+
+Functional
+1. Contact us button is a part of the homepage, for quick call to action.
+2. 'View latest chalets' button right on the landing page to get the user to what's important.
+3. A carousel is used on the listings page to quickly and effectivly show case the properties.
+4. Both type of listings are available on the listings page to show case the most amount in the shortest time.
+5. When viewing properties, the sidebar is there to give the user quick access to contact us page.

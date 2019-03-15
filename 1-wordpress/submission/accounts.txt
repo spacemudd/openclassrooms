@@ -1,0 +1,12 @@
+username:  gm
+password: %AvMujOUCq$ESTXUE76ZFGba
+
+username: dev
+password: ##lDJ6O77LXA!OMh&U9n3^hO
+
+username: editor1
+password: sTKfTsRu2P%BZtJ8nhr!2R0Q
+
+username: editor2
+password: jxvyRR7AqSGMCK@!LPFbOeGH
+

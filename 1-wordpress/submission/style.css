@@ -1,0 +1,73 @@
+
+/**
+ * Base colours
+ **/
+.color1 {
+	background-color: #c4933f !important;
+  border-color: #f3bb5a !important;
+}
+
+.color1:hover {
+	background-color: #e0a134 !important;
+  border-color: #f3bb5a !important;
+}
+
+.fa-cogs {
+	background-color: #c4933f !important;
+}
+
+.fa-magic {
+	background-color: #c4933f !important;
+}
+
+
+#side-navigation ul[data-preset="preset-2"] li a {
+	background-color: #faba4d !important;
+}
+
+/**
+ * The 'and' in the title
+ **/
+.span12 {
+	color: #faba4d !important;
+}
+
+/** 
+ * Outlined button border.
+ **/
+.button, .outline {
+ border-color: #daa851 !important;
+}
+
+/**
+ * Navbar
+ **/
+.current_page_item > a {
+	border-bottom: 3px solid #faba4d !important;
+}
+
+li:hover > a {
+  color: #faba4d !important;
+}
+
+/**
+ * Helpers
+ **/
+.is-centered {
+	text-align: center;
+}
+
+
+.header {
+	background-image: url('http://dev-cc-worldwide-chalets.pantheonsite.io/wp-content/uploads/2018/12/pexels-photo-754268.jpeg') !important;
+	background-color: rgb(255, 226, 57);
+}
+
+.header .background-overlay {
+	background: linear-gradient(135deg , rgba(147, 140, 97, 0.8) 0%, rgba(65, 45, 5, 0.8) 100%);
+}
+
+.pt-cv-wrapper .btn-success {
+	background-color: #c4933f !important;
+border-color: #f3bb5a !important;
+}

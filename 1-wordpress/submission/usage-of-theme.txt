@@ -1,0 +1,5 @@
+The theme, Highlight, was chosen for the ease of frontend editing that applies on multiple points.
+
+The theme was also selected for 2 goals at mind: high-quality and prestigious services.
+
+Hence, it was slightly adjusted to incorobate a gold accent on buttons and edges. This gives off an effect of high class and luxorious experience. Additionally, it complements the black colourd text used on the website.
