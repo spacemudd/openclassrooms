@@ -2,12 +2,26 @@ a {
     color: white;
 }
 
+.link {
+    color: black;
+}
+
 .mg-tb {
     margin: 5rem 0;
 }
 
 .mg-t-xs {
     margin-top: 1rem;
+}
+
+@media (max-width: 920px) {
+    .text-center-xs {
+        text-align: center;
+    }
+
+    .mg-xs-t {
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 590px) {

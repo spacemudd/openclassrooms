@@ -1,0 +1,17 @@
+.film-box {
+    box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
+    padding: 1rem;
+    min-height: 18rem;
+}
+
+.film-box .date {
+    font-size: 1rem;
+}
+
+.film-box .img-container {
+    max-width: 340px;
+}
+
+.film-box.highlight {
+    max-width: 360px;
+}
