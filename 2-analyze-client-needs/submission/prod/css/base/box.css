@@ -1,0 +1,72 @@
+.box {
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem var(--yellow-color);
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box i, .box img {
+    width: 1rem;
+    margin: 0.8rem;
+}
+
+.box a {
+    /** Var from bootstrap **/
+    color: var(--secondary);
+}
+
+/* Films */
+.film-box {
+    box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
+    padding: 1rem;
+    min-height: 18rem;
+    background-color: black;
+    color: white;
+}
+
+.film-box button {
+    border: none;
+}
+
+.film-box .date {
+    font-size: 0.8rem;
+}
+
+.film-box .img-container {
+    max-width: 340px;
+}
+
+.image-container img {
+    min-height: 180px;
+}
+
+.film-box.highlight {
+    max-width: 360px;
+}
+
+.film-box .description {
+    min-height: 8rem;
+}
+
+.fancy-box {
+    width: 100%;
+    height: 100%;
+    background: #FF0099;
+    background-image: none;
+    background-image: linear-gradient(45deg, #f8f5dd 0%, #e5eeee 100%);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: -10vmin 10vmin 0 rgba(255, 255, 255, 0.07);
+}
+
+/* Discover box */
+.discover-box {
+    min-height: 20rem;
+}
+
+.discover-box a {
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
